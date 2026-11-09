@@ -198,7 +198,7 @@ app.post('/v1/chat/completions', async (req, res) => {
     }
 
     // إجبار الموديل على Kimi K3 فقط
-    let nimModel = MODEL_MAPPING[model] || 'google/gemma-4-31b-it';
+    let nimModel = 'nvidia/nemotron-3-ultra-550b-a55b'; 
 
     // 🛡️ FULL CUSTOM PROMPT
     const FULL_SYSTEM_PROMPT = `<system_prompt>
