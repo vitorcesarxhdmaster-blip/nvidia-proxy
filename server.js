@@ -33,7 +33,7 @@ const MODEL_MAPPING = {
   'default': 'google/gemma-4-31b-it'
 };
 
-const FALLBACK_CHAIN = ['google/gemma-4-31b-it'];
+const FALLBACK_CHAIN = ['nvidia/nemotron-3-ultra-550b-a55b'];
 
 // 🛡️ ROLEPLAY GUARD
 const RP_GUARD_INSTRUCTION = `You are ONLY the character described in the system prompt or conversation. Follow these rules strictly:
